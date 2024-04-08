@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Distribute-Analysis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Distribute-Analysis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Distribute-Common-Service-Facade/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Distribute-Common-Service-Facade/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Distribute-Controller/Distribute-Redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Distribute-Controller/Distribute-Redis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Distribute-Controller/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Distribute-Controller/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Distribute-Order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Distribute-Order/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Distribute-Product/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Distribute-Product/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Distribute-Redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Distribute-Redis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Distribute-User/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Distribute-User/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
