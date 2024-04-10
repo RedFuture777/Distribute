@@ -9,7 +9,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>Distribute-Redis</artifactId>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>Distribute-Redis</name>
 
