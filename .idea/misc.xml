@@ -6,6 +6,7 @@
     <file type="web" url="file://$PROJECT_DIR$/Distribute-Controller" />
     <file type="web" url="file://$PROJECT_DIR$/Distribute-Order" />
     <file type="web" url="file://$PROJECT_DIR$/Distribute-Product" />
+    <file type="web" url="file://$PROJECT_DIR$/Distribute-Redis" />
     <file type="web" url="file://$PROJECT_DIR$/Distribute-User" />
   </component>
   <component name="MavenProjectsManager">
