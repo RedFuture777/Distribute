@@ -8,5 +8,9 @@ package org.dubbo.distribute.remote;
 
 
 public interface HelloService {
+    default String sayBye(){
+        return "byebye";
+    }
+
     String sayHello(String name);
 }
