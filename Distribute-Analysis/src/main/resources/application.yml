@@ -7,4 +7,4 @@ dubbo:
     name: dubbo
     port: -1
   registry:
-    address: zookeeper://192.168.31.102:2181
+    address: zookeeper://127.0.0.1:2181

@@ -90,10 +90,14 @@ public class JwtTokenUtils {
                 .collect(Collectors.toList());
     }
 
+    /**
+     * 从输入的token中解析出用户信息和权限，然后将它们封装在UsernamePasswordAuthenticationToken对象中，以便在后续的权限验证中使用。
+     */
     public static UsernamePasswordAuthenticationToken getAuthentication(String token) {
         Claims claims = getClaims(token);
         List<SimpleGrantedAuthority> authorities = getAuthorities(claims);
         String userName = claims.getSubject();
+        //使用三个参数的构造函数，将认证状态设置为true
         return new UsernamePasswordAuthenticationToken(userName, token, authorities);
     }
 
