@@ -28,7 +28,7 @@ public class SwaggerConfig {
                 .apis(RequestHandlerSelectors.basePackage("org.dubbo.distribute.controller"))
                 .paths(PathSelectors.any())
                 .build()
-                .securityContexts(securityContexts())
+                .securityContexts(securityContext())
                 .securitySchemes(securitySchemes());
 
     }
@@ -37,8 +37,8 @@ public class SwaggerConfig {
         return Collections.singletonList(new ApiKey("JWT", SecurityConstants.TOKEN_HEADER, "header"));
     }
 
-    private List<SecurityContext> securityContexts(){
-        springfox.documentation.spi.service.contexts.SecurityContext securityContext = springfox.documentation.spi.service.contexts.SecurityContext.builder()
+    private List<SecurityContext> securityContext() {
+        SecurityContext securityContext = SecurityContext.builder()
                 .securityReferences(defaultAuth())
                 .build();
         return Collections.singletonList(securityContext);

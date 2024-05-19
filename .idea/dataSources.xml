@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="microServer@121.40.166.14" uuid="d485373d-8649-480a-83c1-6c1989ae5a02">
+    <data-source source="LOCAL" name="distribute" uuid="5200d934-3ab3-4d29-82f3-b3f582e565cb">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
+      <remarks>121.40.166.14</remarks>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://121.40.166.14:3306/microServer?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;serverTimezone=GMT%2B8&amp;allowPublicKeyRetrieval=true</jdbc-url>
+      <jdbc-url>jdbc:mysql://121.40.166.14:3306/distribute</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

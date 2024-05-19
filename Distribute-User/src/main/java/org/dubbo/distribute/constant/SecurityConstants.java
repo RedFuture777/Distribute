@@ -36,6 +36,7 @@ public final class SecurityConstants {
 
     // Swagger WHITELIST
     public static final String[] SWAGGER_WHITELIST = {
+            "/druid/**",
             "/swagger-ui.html",
             "/swagger-ui/*",
             "/swagger-resources/**",
@@ -43,6 +44,7 @@ public final class SecurityConstants {
             "/v3/api-docs",
             "/webjars/**",
             "/doc.html",
+            "/test/**"
     };
 
     public static final String H2_CONSOLE = "/h2-console/**";

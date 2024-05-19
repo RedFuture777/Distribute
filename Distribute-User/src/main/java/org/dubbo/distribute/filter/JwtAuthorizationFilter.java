@@ -37,7 +37,7 @@ public class JwtAuthorizationFilter extends OncePerRequestFilter {
         //获取并验证请求头中的token是否符合要求
         String token = request.getHeader(SecurityConstants.TOKEN_HEADER);
         if (token == null || !token.startsWith(SecurityConstants.TOKEN_PREFIX)) {
-            //如果不符合，显示的清楚当前线程的上下文的值
+            //如果不符合，显示的清除当前线程的上下文的值
             SecurityContextHolder.clearContext();
             chain.doFilter(request, response);
             return;

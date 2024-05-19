@@ -2,6 +2,9 @@ server:
   port: 8089
 
 spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
   redis:
     database: 0
     host: 121.40.166.14
